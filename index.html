@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="rawand.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Rawand Omer Tawfeeq</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Rawand Omer Tawfeeq</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/rawandpfp.png" alt="Rawand profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rawand Omer Tawfeeq</h1>
+        <p class="section__text__p2">Electrical Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Rond CV.pdf')"
+          >
+            Download CV
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/email.png"
+            alt="My Email Address"
+            class="icon"
+            onclick="location.href='mailto:  Rawandomer33@gmail.com'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1__about">Get To Know More</p>
+        <h1 class="title__about">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img
+            src="./assets/raww22.jpg"
+            alt="Rawand Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/training.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Training</h3>
+              <h4>2022</h4>
+              <ul style="list-style-type: circle;">
+                <li>Asia cell internship, Sulaimani, Iraq </li>
+                <li>The Five Dysfunctions of a Team, Sulaimani, Iraq</li>
+                <li>leadership Program, Sulaimani, Iraq</li>
+                <li>Arduino, Suleimani, Iraq</li>
+            </ul>
+            <h4>2021</h4>
+            <ul style="list-style-type: circle;">
+                <li>Preparing set of Drawing, Detail & Bill of Quantity for Building Construction, Halabja, Iraq</li>
+            </ul>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <h4>2022-2023 </h4>
+                Exchange Program at Hochschule Karlsruhe, Baden-Württemberg, Germany
+                <h4>2019-2022 and 2024-ongoing</h4> 
+                B.Sc. in Electrical Engineering at University of Sulaimani, Kurdistan, Iraq 
+                <h4>2012 – 2019 </h4>
+                High School Degree at Salaheddin Ayyubi College Kurdistan, Iraq (US Halabja college)
+              
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Electrical Engineer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Supervisor at VOLTEC-TSI (company) </h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Preparing Electrical Boards (ATS-MTS-PLC-MDB) (Volunteer) at Big Power (company)
+                </h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Supervisor at HawShewa (company) </h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vision Mixer at Halabja channel </h3>
+                  <p></p>
+                </div>
+              </article>
+            </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificates">
+      <p class="section__text__p1"> My </p>
+      <h1 class="title">Certificates</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="certificate-sub-title">Certificates</h2>
+            <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>2023</h3>
+                    <p>Introduction to Solar PV System (Desing and Installation)</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>2023</h3>
+                    <p>ARDUINO (Design and Application) </p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>2018</h3>
+                    <p>International Turkish Language Exam, Sulaimani, Iraq
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>2016-2017-2018</h3>
+                    <p>Iraq International Project Olympiad, Sulaimani, KRG, Iraq</p>
+                  </div>
+                </article>
+              </div>
+          </div>
+          
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:rawandomer33@gmail.com">rawandomer33@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="rawand.js"></script>
+  </body>
+</html>
